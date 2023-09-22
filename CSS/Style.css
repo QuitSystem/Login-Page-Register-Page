@@ -21,15 +21,39 @@ html body {
 .navbar {
     padding: 5px;
     height: 60px;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: gray;
     /* border: 1px solid black; */
 }
 
 .navbar>.nav-brand {
     padding: 5px;
+    font-size: 25px;
     /* border: 1px solid black; */
+}
+
+.nav-search {}
+
+.nav-search>.searchbar {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.nav-search>.searchbar>input {
+    width: 150px;
+    height: 25px;
+}
+
+.nav-search>.searchbar>button {
+    width: 25px;
+    height: 25px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .nav-list>.content-list {
@@ -44,5 +68,6 @@ html body {
 }
 
 .content-list>li>a {
+    font-size: 20px;
     color: black;
 }
