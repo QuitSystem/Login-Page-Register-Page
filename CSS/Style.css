@@ -15,9 +15,7 @@ html body {
     background-color: whitesmoke;
 }
 
-.container {
-
-}
+.container {}
 
 /* ========== Navbar ========== */
 .navbar {
@@ -26,25 +24,25 @@ html body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.navbar > .nav-brand {
+.navbar>.nav-brand {
     padding: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.nav-list > .content-list {
+.nav-list>.content-list {
     display: flex;
     flex-direction: row;
 }
 
-.nav-list > .content-list > li {
+.nav-list>.content-list>li {
     margin: 5px;
     padding: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.content-list > li > a {
+.content-list>li>a {
     color: black;
 }
