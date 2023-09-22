@@ -14,3 +14,37 @@
 html body {
     background-color: whitesmoke;
 }
+
+.container {
+
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    padding: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.navbar > .nav-brand {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.nav-list > .content-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list > .content-list > li {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.content-list > li > a {
+    color: black;
+}
