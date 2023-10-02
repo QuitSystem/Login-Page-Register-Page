@@ -12,7 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(https://wallpaperaccess.com/full/336952.jpg) no-repeat;
+    background-color: crimson;
+    /* background: url(https://wallpaperaccess.com/full/336952.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
 }
@@ -88,11 +89,16 @@ header {
     width: 400px;
     height: 440px;
     background: transparent;
-    border: 2px solid rgba(225,225,225, .5);
+    border: 2px solid rgba(255,255,255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0,0,0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
 }
